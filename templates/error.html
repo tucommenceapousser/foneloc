@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #ff0000;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #ff0000;
+            text-shadow: 0 0 10px #ff0000;
+        }
+        .error-message {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+        a {
+            color: #00ff00;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 20px;
+            display: block;
+            text-align: center;
+        }
+        a:hover {
+            color: #ff00ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Error</h1>
+    <div class="error-message">
+        <p>{{ message }}</p>
+        <a href="/">Go Back</a>
+    </div>
+</body>
+</html>
