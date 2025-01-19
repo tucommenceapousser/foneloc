@@ -1,0 +1,6 @@
+flask==2.2.2
+folium==0.12.1
+phonenumbers==8.12.48
+opencage==2.3.0
+prompt-toolkit==3.0.36
+rich==12.6.0
